@@ -33,6 +33,7 @@ public class LoginTest {
 		driver.findElement(By.cssSelector("button.btn:nth-child(6)")).click();
 		driver.findElement(By.cssSelector("#password")).sendKeys("S0niy@@0501");
 		driver.findElement(By.cssSelector("button.btn:nth-child(6)")).click();
+		driver.findElement(By.cssSelector("._logo-crm")).click();
 				
 	}
 	
